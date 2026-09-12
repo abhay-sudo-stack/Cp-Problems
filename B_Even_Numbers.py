@@ -1,6 +1,11 @@
 x=int(input())
-for i in range(x):
-    if i%2==0:
-        print(i)
-    
+if x=0:
+    print(-1)
+else:
+    for i in range(1,x+1):
+        if i%2==0:
+            print(i)
+  
+
+
 
