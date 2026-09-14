@@ -8,3 +8,4 @@ if len(z)>2:
     print("NO")
 else:
     print("YES")
+

@@ -1,0 +1,6 @@
+x=input()
+y=input()
+print(len(x),end=" ")
+print(len(y))
+print(x,end=" ")
+print(y)
