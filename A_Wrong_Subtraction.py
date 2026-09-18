@@ -3,11 +3,7 @@ z=x[1]
 y=x[0]
 r=0
 f=0
-for i in range(1,z+1):
-    if y%10==0:
-        r=y%10
-        y=r
-    else:
-        y=y-i
-        
-print(y)
+digits = [int(d) for d in str(y)]
+if digits[-1]==0:
+    del digits[-1]
+
