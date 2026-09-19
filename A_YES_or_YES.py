@@ -12,4 +12,3 @@ for i in L:
         print("YES")
     else:
         print("NO")
-   
