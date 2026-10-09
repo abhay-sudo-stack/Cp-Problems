@@ -1,15 +1,5 @@
 x=input()
-l=[]
+n=x[0].upper()+x[1:]
+print(n)
 
-if x[0].islower()==True:
-    l[0]=x[0].upper()
-
-for i in x[1:]:
-    if x[i].islower()==True:
-        l[i]=x[i].upper()
-
-if x[0].islower()==True:
-    l[0]=x[0].upper()
-
-print(l)
 
