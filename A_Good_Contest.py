@@ -1,12 +1,9 @@
-x=int(input())
-while x>0:
-    y=int(input())
-    z=list(map(int,input().split()))
-    for i in z:
-        if i<y:
-            g=y-t
-                      
-
+n=int(input())
+for i in range(n):
+    x=int(input())
+    l=list(map(int,input().split()))
+    t=min(l)
+    print(x-t)
         
 
 

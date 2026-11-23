@@ -6,4 +6,3 @@ while n>0:
     r=a[2]
     print(x,y+r)
     n-=1
-    
